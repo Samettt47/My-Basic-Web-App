@@ -1,0 +1,42 @@
+﻿
+@{
+    Layout = null;
+}
+
+
+<!DOCTYPE html>
+
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel Login</title>
+    <link rel="stylesheet" href="~/web-Admin/style2.css">
+
+</head>
+<body>
+    <div class="container">
+        <div class="contact-from">
+            <img src="~/web-Admin/download.png" class="admin">
+            <h2>Admin Login</h2>
+            @using (Html.BeginForm("Index", "Login", FormMethod.Post))
+            {
+                <!-- BURADA FORM ELEMANLARINI KLLLANIP KULLANICIDAN GİRDİ ALINACAK TEXTBOX KOYDUK-->
+                <div class="txtb">
+                    <input type="text" name="kullaniciAdi" placeholder="Username">
+                </div>
+                <div class="txtb">
+                    <input type="text" name="Sifre" placeholder="Password">
+                </div>
+
+                <input type="submit" class="logbtn" value="Login">
+            }
+
+        </div>
+
+    </div>
+
+</body>
+</html>
