@@ -1,0 +1,112 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+*{
+    margin : 0 ;
+    padding: 0;
+}
+
+
+div.container{
+    background: url("DSC05545.jpg");
+    height: 100vh;
+    background-size: 100% 100%;
+}
+
+div.container .navbar {
+    
+    width: 100%;
+    height: 80px;
+    background: rgba(22,112,214,0.4);
+    
+}
+
+div.navbar .logo {
+    
+    
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.navbar .logo a{
+    background: url('sadasd.jpg');
+    text-decoration: none;
+    font-size: 30px;
+    font-family: sans-serif;
+    color: #f3f3f3;
+}
+
+div.navbar ul {
+    float: right;
+    margin-right: 20px;
+
+
+}
+
+div.navbar ul li {
+    list-style: none;
+    display: inline-block;
+     margin: 0 8px;
+     line-height: 80px;
+
+}
+
+div.navbar ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 6px 13px;
+    font-family: Roboto;
+    transition: .4s; 
+}
+
+div.navbar ul li a.active,
+div.navbar ul li a:hover{
+    background: #ff6e00;
+    border-radius: 20px;
+}
+
+div.container .center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: sans-serif ;
+    user-select: none;
+
+}
+
+div.center h1{
+    color: white;
+    font-size: 70px;
+    font-weight: bold;
+    width: 900px;
+    text-align: center;
+    t
+}
+
+div.center .buttons{
+    margin:  35px  280px;
+}
+
+div.buttons button {
+    height:  50px ;
+    width: 150px;
+    font-size: 18px;
+    font-family: bold;
+    color: #ffb3b3;
+    background: rgb(163, 109, 105);
+    border: solid 1px red;
+    cursor: pointer;
+    outline: none;
+    border-radius: 25px;
+    transition: .4s;
+
+}
+
+div.buttons button:hover{
+    background: #fff;
+}
+
+

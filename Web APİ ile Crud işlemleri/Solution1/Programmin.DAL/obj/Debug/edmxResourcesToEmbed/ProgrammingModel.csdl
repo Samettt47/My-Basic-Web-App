@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ProgrammingDbModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Languages">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Byte" Nullable="false" />
+    <Property Name="Language" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="Founder" Type="String" MaxLength="50" FixedLength="true" Unicode="true" />
+    <Property Name="Year" Type="Int16" />
+    <Property Name="Ispopular" Type="Boolean" />
+  </EntityType>
+  <EntityContainer Name="ProgrammingDbEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Languages" EntityType="Self.Languages" />
+  </EntityContainer>
+</Schema>

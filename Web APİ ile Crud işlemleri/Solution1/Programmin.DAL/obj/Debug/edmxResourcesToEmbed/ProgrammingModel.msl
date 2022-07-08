@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ProgrammingDbModelStoreContainer" CdmEntityContainer="ProgrammingDbEntities">
+    <EntitySetMapping Name="Languages">
+      <EntityTypeMapping TypeName="ProgrammingDbModel.Languages">
+        <MappingFragment StoreEntitySet="Languages">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Language" ColumnName="Language" />
+          <ScalarProperty Name="Founder" ColumnName="Founder" />
+          <ScalarProperty Name="Year" ColumnName="Year" />
+          <ScalarProperty Name="Ispopular" ColumnName="Ispopular" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
