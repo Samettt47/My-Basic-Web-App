@@ -1,0 +1,12 @@
+C:\Users\samet\source\repos\Solution2\ProgrammingDAL\bin\Debug\ProgrammingDAL.dll.config
+C:\Users\samet\source\repos\Solution2\ProgrammingDAL\bin\Debug\ProgrammingDAL.dll
+C:\Users\samet\source\repos\Solution2\ProgrammingDAL\bin\Debug\ProgrammingDAL.pdb
+C:\Users\samet\source\repos\Solution2\ProgrammingDAL\bin\Debug\EntityFramework.dll
+C:\Users\samet\source\repos\Solution2\ProgrammingDAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\samet\source\repos\Solution2\ProgrammingDAL\bin\Debug\EntityFramework.xml
+C:\Users\samet\source\repos\Solution2\ProgrammingDAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\samet\source\repos\Solution2\ProgrammingDAL\obj\Debug\Programming.DAL.csprojAssemblyReference.cache
+C:\Users\samet\source\repos\Solution2\ProgrammingDAL\obj\Debug\Programming.DAL.csproj.CoreCompileInputs.cache
+C:\Users\samet\source\repos\Solution2\ProgrammingDAL\obj\Debug\Programming.DAL.csproj.CopyComplete
+C:\Users\samet\source\repos\Solution2\ProgrammingDAL\obj\Debug\ProgrammingDAL.dll
+C:\Users\samet\source\repos\Solution2\ProgrammingDAL\obj\Debug\ProgrammingDAL.pdb
